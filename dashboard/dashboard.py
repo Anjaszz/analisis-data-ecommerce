@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Membaca data
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/Anjaszz/analisis-data-ecommerce/refs/heads/master/dashboard/all_data.csv")
 
 # Set title untuk dashboard
 st.title("Dashboard Analisis E-Commerce")
